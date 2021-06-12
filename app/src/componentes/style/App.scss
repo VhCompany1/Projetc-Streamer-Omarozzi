@@ -1,0 +1,74 @@
+@import './sass/variables.scss';
+
+@mixin flexcenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    @include flexcenter();
+
+    background-color: $bgc;
+
+    font-family: 'Courier New';
+}
+
+.header{
+    text-align: center;
+    font-size: 25px;
+    color: $textc;
+
+    a{
+        text-decoration: none;
+        color: $textc;
+    }a:hover{
+        color: $linkc;
+    }
+    .icon{
+        height: 25px;
+        text-align: left;
+    }
+}
+
+.body{
+    
+    h1{
+        color: $textc;
+    }
+
+    h2{
+        color: $textc;
+    }
+
+    p{
+        color: $textc;
+    }
+
+    .icon {
+        height: 20px;
+    }
+
+    .avatar {
+        height: 100px;
+        height: 100px;
+
+        border-radius: 50%;
+    }
+
+    background-color: $bc;
+
+    border-radius: 5%;
+
+    text-align: center;
+
+    width: 850px;
+    height: 1250px;
+}
+
+.mh {
+    .icon1{
+        height: 100px;
+        border-radius: 50%;
+    }
+}
