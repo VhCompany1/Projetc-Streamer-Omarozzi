@@ -59,6 +59,17 @@ body {
 
     width: 850px;
     height: 1250px;
+
+    a{
+        text-decoration: none;
+        color: $textc;
+    }a:hover{
+        color: $linkc;
+    }
+    .icon{
+        height: 25px;
+        text-align: left;
+    }
 }
 
 .mh {

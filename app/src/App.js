@@ -1,5 +1,5 @@
 //Imagens
-import logo from './logo.svg';
+//import logo from './logo.svg';
 
 //Syle
 import './componentes/style/App.css';
