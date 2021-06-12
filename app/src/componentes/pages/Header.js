@@ -9,7 +9,7 @@ import Wifi from '../img/SemWifi.png'
 export default function Header(){
     return(
         <div className='header'>
-            <a href='./index.html'>Home</a> <a href='./Citados.html'>Citados</a> <a href='./Games.html'>Games</a>
+            <a href='./?page=Home'>Home</a> <a href='./?page=Clips'>Clips</a> <a href='./?page=Games'>Games</a>
             <img src={Wifi} alt='wifi' className='icon' />
         </div>  
     )

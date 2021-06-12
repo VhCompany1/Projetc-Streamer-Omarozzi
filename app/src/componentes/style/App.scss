@@ -27,7 +27,6 @@ body {
 }
 
 .body{
-    
     h1{
         color: $textc;
     }
@@ -70,6 +69,29 @@ body {
         height: 25px;
         text-align: left;
     }
+}
+
+.game{
+    @include flextop();
+    text-align: left;
+ 
+    background-color: $bc;
+
+    width: 850px;
+    height: 100px;
+
+    .gameicon{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#ClipsBody{
+    background-color: $bgc;
+}
+
+#GamesBody{
+    background-color: $bgc;
 }
 
 .mh {

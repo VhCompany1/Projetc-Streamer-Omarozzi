@@ -5,7 +5,7 @@
 import './componentes/style/App.css';
 
 //Pages
-import Body from './componentes/pages/Body/Body';
+import Body from './componentes/pages/App/Body/Body';
 import Header from './componentes/pages/Header'
 
 function App() {
