@@ -1,10 +1,5 @@
-@import './sass/variables.scss';
-
-@mixin flexcenter(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@import './sass/_variables.scss';
+@import './sass/_functions.scss';
 
 body {
     @include flexcenter();
